@@ -1,0 +1,58 @@
+{
+  "notes": [
+    "Every tapFrac is the CENTRE of a real RectTransform, recomputed by .audit/layout-audit.js.",
+    "Canvas 1242x2688 Expand + AspecterSA FitInParent -> the content box is 1242x2688 with 36",
+    "logical units of letterbox: fracX = ax, fracY = 0.0130435 + (1 - ay) * 0.973913 on 1080x2400.",
+    "Step 1 blocks on the loader: the menu scene shows the template splash on a cold launch too,",
+    "and a fixed wait would photograph the loading bar and offset every later tap by one screen.",
+    "Step 5 taps SPIN before SlotMachineDirector.IdleFirst (26 s) can auto-spin, so the welcome",
+    "4-of-a-kind - 18x the stake, over the big-win threshold - lands on OUR tap and the win pop is",
+    "reliably on screen for step 6 rather than depending on a lucky roll."
+  ],
+  "steps": [
+    {
+      "waitLoader": true,
+      "shot": "01_FestivalLobby"
+    },
+    {
+      "tapFrac": [0.5, 0.7824],
+      "label": "COLLECTION",
+      "wait": 1.4,
+      "shot": "02_BullCollection"
+    },
+    {
+      "tapFrac": [0.6916, 0.2236],
+      "label": "TASKS_TAB",
+      "wait": 1.2,
+      "shot": "03_FestivalTasks"
+    },
+    {
+      "tapFrac": [0.5, 0.8073],
+      "label": "SHEET_PLAY",
+      "waitLoader": true,
+      "shot": "04_SlotReelsIdle"
+    },
+    {
+      "tapFrac": [0.5, 0.8165],
+      "label": "SPIN",
+      "wait": 1.3,
+      "shot": "05_ReelsSpinning"
+    },
+    {
+      "wait": 3.6,
+      "shot": "06_GoldenStampedeWin"
+    },
+    {
+      "tapFrac": [0.5, 0.5878],
+      "label": "WIN_COLLECT",
+      "wait": 1.5,
+      "shot": "07_ReelsAfterWin"
+    },
+    {
+      "tapFrac": [0.915, 0.0501],
+      "label": "PAUSE",
+      "wait": 1.4,
+      "shot": "08_FestivalPaused"
+    }
+  ]
+}

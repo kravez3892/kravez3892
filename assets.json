@@ -1,0 +1,155 @@
+{
+  "style": "chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze",
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "vertical 9:16 bronze festival hall interior at night, crimson lanterns hanging high on the left and right, warm pool of light low centre, gold leaf ornament on the walls, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, no text, no UI"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "vertical 9:16 the same bronze festival hall, soft blurred and low contrast, darker top and bottom thirds for UI overlay, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, no text, no UI"
+    },
+    {
+      "name": "sprite_sym_longhorn",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_longhorn.png",
+      "facing": "front view, symmetric - do NOT flip",
+      "prompt": "one single golden longhorn bull head emblem, front view, symmetric, gold leaf over dark bronze, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_horn",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_horn.png",
+      "facing": "side view, facing RIGHT",
+      "prompt": "one single gilded curved horn with a crimson ribbon wrapped round its base, side view, facing RIGHT, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_lantern",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_lantern.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single crimson festival lantern with gold trim and a short tassel, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_bell",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_bell.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single brass festival bell with a crimson cord, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_drum",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_drum.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single festival drum, bronze body, gold studs round the rim, crimson drum skin, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_ribbon",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_ribbon.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single crimson ribbon rosette with a gold centre stud, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_coin",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_coin.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single thick gold festival coin medallion with a bull profile stamped on its face, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_sym_star",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_sym_star.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single bright gold eight-point festival star, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_reel_cabinet",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_reel_cabinet.png",
+      "facing": "n/a - drawn 9-sliced, needs straight edges",
+      "prompt": "ornate bronze slot cabinet backplate, thick gold frame of even width on all four edges, flat dark lacquer centre, straight edges, 9-slice friendly, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_card_plate",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_card_plate.png",
+      "facing": "n/a - drawn 9-sliced, needs straight edges",
+      "prompt": "rectangular dark bronze card plate with a thin even gold border, flat centre, rounded corners, straight edges, 9-slice friendly, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_btn_plate",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_btn_plate.png",
+      "facing": "n/a - drawn 9-sliced, needs straight edges",
+      "prompt": "polished gold button plate with a bronze rim and small crimson ribbon accents at the corners, completely empty flat centre, no text, rounded square, 9-slice friendly, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_payline_glow",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_payline_glow.png",
+      "facing": "n/a - drawn 9-sliced and also as a soft halo",
+      "prompt": "horizontal soft gold light bar, bright warm centre fading smoothly to transparent at both ends, no outline, chunky casual mobile game art, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_emblem_mark",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_emblem_mark.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single abstract emblem, two curved gold horns forming a ring around a plain gold disc, NO letters, NO text of any kind, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single thick gold X cross icon, bold even strokes, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "facing": "side view, facing LEFT",
+      "prompt": "one single thick gold left-pointing chevron arrow icon, bold even strokes, facing LEFT, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single gold pause icon, two thick vertical bars side by side, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    },
+    {
+      "name": "sprite_decor_garland",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_decor_garland.png",
+      "facing": "front view, symmetric",
+      "prompt": "one single wide horizontal crimson ribbon garland with small gold tassels hanging from it, front view, symmetric, chunky casual mobile game art, thick dark outlines, cel-shaded gold leaf and lacquered bronze, one subject centred and fully in frame, isolated"
+    }
+  ]
+}
